@@ -15,8 +15,9 @@ const DEFAULT_CONFIG = {
   plugins: [
     Plugins.mergeStyleArray,
     Plugins.checkProps,
-    Plugins.resolveMediaQueries,
-    Plugins.resolveInteractionStyles,
+    // Plugins.resolveMediaQueries,
+    // Plugins.resolveInteractionStyles,
+    Plugins.noInline,
     Plugins.keyframes,
     Plugins.prefix,
     Plugins.checkProps
